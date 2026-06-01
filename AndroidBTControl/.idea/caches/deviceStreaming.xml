@@ -310,6 +310,7 @@
           <option name="codename" value="a16xeea" />
           <option name="id" value="a16xeea" />
           <option name="labId" value="google" />
+          <option name="manufacturer" value="Samsung" />
         </PersistentDeviceSelectionData>
         <PersistentDeviceSelectionData>
           <option name="api" value="31" />
