@@ -1099,6 +1099,18 @@
           <option name="screenY" value="1600" />
         </PersistentDeviceSelectionData>
         <PersistentDeviceSelectionData>
+          <option name="api" value="30" />
+          <option name="brand" value="motorola" />
+          <option name="codename" value="guamp" />
+          <option name="id" value="guamp" />
+          <option name="labId" value="google" />
+          <option name="manufacturer" value="Motorola" />
+          <option name="name" value="moto g(9) play" />
+          <option name="screenDensity" value="280" />
+          <option name="screenX" value="720" />
+          <option name="screenY" value="1600" />
+        </PersistentDeviceSelectionData>
+        <PersistentDeviceSelectionData>
           <option name="api" value="34" />
           <option name="brand" value="google" />
           <option name="codename" value="husky" />
