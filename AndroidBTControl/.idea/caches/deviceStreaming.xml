@@ -1307,18 +1307,6 @@
           <option name="screenDensity" value="421" />
           <option name="screenX" value="1080" />
           <option name="screenY" value="2400" />
-        </PersistentDeviceSelectionData>
-          <option name="api" value="35" />
-          <option name="brand" value="OnePlus" />
-          <option name="codename" value="oplus_lab_op5961l1" />
-          <option name="id" value="oplus_lab_op5961l1" />
-          <option name="labId" value="oneplus" />
-          <option name="manufacturer" value="OnePlus" />
-          <option name="name" value="11R 5G" />
-          <option name="screenDensity" value="560" />
-          <option name="screenX" value="1240" />
-          <option name="screenY" value="2772" />
-        </PersistentDeviceSelectionData>
         <PersistentDeviceSelectionData>
           <option name="accessStatus">
             <list>
