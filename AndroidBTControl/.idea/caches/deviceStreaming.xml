@@ -1307,12 +1307,6 @@
           <option name="screenDensity" value="421" />
           <option name="screenX" value="1080" />
           <option name="screenY" value="2400" />
-        <PersistentDeviceSelectionData>
-          <option name="accessStatus">
-            <list>
-              <option value="EULA_NOT_ACCEPTED" />
-            </list>
-          </option>
           <option name="api" value="34" />
           <option name="brand" value="OPPO" />
           <option name="codename" value="oplus_lab_op5abfl1" />
