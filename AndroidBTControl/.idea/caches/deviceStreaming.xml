@@ -1611,7 +1611,6 @@
         </PersistentDeviceSelectionData>
         <PersistentDeviceSelectionData>
           <option name="api" value="34" />
-          <option name="codename" value="samsung_lab_gts9p" />
           <option name="formFactor" value="Tablet" />
           <option name="id" value="samsung_lab_gts9p" />
           <option name="labId" value="samsung" />
