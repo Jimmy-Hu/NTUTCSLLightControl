@@ -1611,7 +1611,6 @@
         </PersistentDeviceSelectionData>
         <PersistentDeviceSelectionData>
           <option name="api" value="34" />
-          <option name="labId" value="samsung" />
           <option name="manufacturer" value="Samsung" />
           <option name="name" value="Galaxy Tab S9+ 5G" />
           <option name="screenDensity" value="340" />
