@@ -1717,9 +1717,6 @@
           <option name="screenDensity" value="420" />
           <option name="screenX" value="1080" />
           <option name="screenY" value="2424" />
-            <list>
-              <option value="EULA_NOT_ACCEPTED" />
-            </list>
           </option>
           <option name="api" value="35" />
           <option name="brand" value="Infinix" />
