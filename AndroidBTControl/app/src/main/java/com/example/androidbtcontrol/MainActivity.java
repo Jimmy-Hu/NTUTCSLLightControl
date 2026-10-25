@@ -142,8 +142,8 @@ public class MainActivity extends AppCompatActivity
 
     private void setup() {
         Set<BluetoothDevice> pairedDevices = bluetoothAdapter.getBondedDevices();
-            pairedDeviceArrayList = new ArrayList<BluetoothDevice>();
         if (!pairedDevices.isEmpty()) {
+            pairedDeviceArrayList = new ArrayList<>();
 
             for (BluetoothDevice device : pairedDevices) {
                 pairedDeviceArrayList.add(device);
