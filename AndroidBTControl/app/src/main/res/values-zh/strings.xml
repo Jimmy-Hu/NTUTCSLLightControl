@@ -1,4 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidBTControl</string>
+    <string name="app_name">北科城市科學燈光控制</string>
+    <string name="brand_title">City Science @ 臺北科大</string>
+    <string name="brand_subtitle">MIT Media Lab 合作計畫 • 藍牙燈光控制器</string>
+    <string name="brand_logo_desc">臺北科大城市科學實驗室標誌</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_control">燈光控制</string>
+    <string name="tab_terminal">序列埠終端</string>
+    <string name="tab_devices_settings">裝置與設定</string>
+
+    <!-- Connection Banner & Status -->
+    <string name="status_connected_to">已連線：%1$s</string>
+    <string name="status_connecting_to">正在連線至 %1$s…</string>
+    <string name="status_disconnected">尚未連線</string>
+    <string name="status_error">連線錯誤：%1$s</string>
+    <string name="status_demo_badge">模擬裝置</string>
+    <string name="action_connect">連線</string>
+    <string name="action_disconnect">中斷連線</string>
+    <string name="action_reconnect">重新連線</string>
+    <string name="action_choose_device">選擇裝置</string>
+
+    <!-- Permissions & Adapter Banners -->
+    <string name="perm_required_title">需要藍牙權限</string>
+    <string name="perm_required_body">請授予藍牙權限，以讀取已配對的 HC-06 控制器、掃描附近裝置並建立 RFCOMM 序列連線。</string>
+    <string name="action_grant_permissions">授予權限</string>
+    <string name="bt_disabled_title">藍牙尚未開啟</string>
+    <string name="bt_disabled_body">請開啟藍牙以連線實體 HC-06 / Arduino 控制器，或在設定中啟用「模擬 HC-06 展示模式」。</string>
+    <string name="action_enable_bt">開啟藍牙</string>
+    <string name="bt_unsupported_body">此裝置不支援實體藍牙硬體，您仍可使用「模擬 HC-06 展示模式」測試完整燈光控制與終端機功能。</string>
+    <string name="action_enable_demo_now">連線模擬 HC-06</string>
+
+    <!-- Control Screen -->
+    <string name="section_primary_power">主電源控制</string>
+    <string name="cmd_power_on">開啟電源</string>
+    <string name="cmd_power_off">關閉電源</string>
+    <string name="section_quick_commands">自訂快捷指令</string>
+    <string name="action_add_command">新增指令</string>
+    <string name="action_reset_defaults">重設預設值</string>
+    <string name="section_send_custom">發送自訂序列指令</string>
+    <string name="hint_command_input">輸入序列指令（例如 poweron）…</string>
+    <string name="action_send">傳送</string>
+    <string name="section_recent_activity">最新序列埠通訊</string>
+    <string name="empty_recent_activity">尚無通訊紀錄。請先連線裝置並觸發燈光控制指令。</string>
+    <string name="action_open_terminal">完整終端機</string>
+
+    <!-- Command Preset Dialog -->
+    <string name="dialog_add_command_title">新增快捷指令</string>
+    <string name="dialog_edit_command_title">編輯快捷指令</string>
+    <string name="field_command_label">按鈕名稱</string>
+    <string name="field_command_payload">傳送字串 (Payload)</string>
+    <string name="action_save">儲存</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_delete">刪除</string>
+    <string name="action_edit">編輯</string>
+
+    <!-- Terminal Screen -->
+    <string name="mode_text">純文字</string>
+    <string name="mode_ascii">ASCII [c] (n)</string>
+    <string name="mode_hex">十六進位 Hex</string>
+    <string name="filter_all">全部</string>
+    <string name="filter_rx">接收 RX</string>
+    <string name="filter_tx">傳送 TX</string>
+    <plurals name="terminal_stats">
+        <item quantity="other">接收：%1$d B • 傳送：%2$d B • 共 %3$d 筆</item>
+    </plurals>
+    <string name="terminal_auto_scroll">自動捲動</string>
+    <string name="action_copy_log">複製</string>
+    <string name="action_clear_log">清除</string>
+    <string name="toast_log_copied">已複製序列埠紀錄至剪貼簿</string>
+    <string name="empty_terminal">序列埠監控區目前沒有資料。</string>
+    <string name="entry_bytes_suffix">%1$d B</string>
+
+    <!-- Devices & Settings Screen -->
+    <string name="section_demo_device">免硬體模擬展示模式</string>
+    <string name="setting_demo_mode_title">模擬 HC-06 燈光控制器</string>
+    <string name="setting_demo_mode_subtitle">提供虛擬 Arduino Due + HC-06 裝置，可真實回應 poweron、powerof 與自訂序列指令</string>
+    <string name="demo_device_name">HC-06 (CSL 燈光模擬器)</string>
+
+    <string name="section_paired_devices">已配對藍牙裝置</string>
+    <string name="action_refresh">重新整理</string>
+    <string name="action_system_bt_settings">系統藍牙設定</string>
+    <string name="empty_paired_devices">找不到已配對裝置。請透過下方掃描或系統藍牙設定配對 HC-06（預設密碼通常為 1234 或 0000）。</string>
+
+    <string name="section_nearby_devices">掃描附近傳統藍牙裝置</string>
+    <string name="action_start_scan">開始掃描</string>
+    <string name="action_stop_scan">停止掃描</string>
+    <string name="action_pair">配對</string>
+    <string name="device_bonded">已配對</string>
+    <string name="device_bonding">配對中…</string>
+    <string name="device_unbonded">未配對</string>
+    <string name="device_unknown_name">未命名裝置</string>
+    <string name="empty_discovered_devices">點選「開始掃描」以搜尋附近的藍牙模組。</string>
+
+    <string name="section_protocol_settings">通訊協定與連線設定</string>
+    <string name="setting_line_ending">傳送結尾換行字元</string>
+    <string name="line_ending_lf">LF (\\n)</string>
+    <string name="line_ending_crlf">CRLF (\\r\\n)</string>
+    <string name="line_ending_cr">CR (\\r)</string>
+    <string name="line_ending_none">無結尾字元 (Raw)</string>
+    <string name="setting_auto_send_title">連線成功後自動發送指令</string>
+    <string name="setting_auto_send_subtitle">RFCOMM 建立連線後立即發送初始字串（舊版預設發送 \"powerof\"）</string>
+    <string name="setting_auto_send_payload">自動發送內容</string>
+    <string name="setting_insecure_rfcomm_title">允許 Insecure RFCOMM 備援連線</string>
+    <string name="setting_insecure_rfcomm_subtitle">當標準 SPP 交握失敗時，自動改用非加密通道重試（相容部分副廠 HC-06 模組）</string>
+
+    <string name="section_appearance_language">外觀主題與語言</string>
+    <string name="setting_theme">顯示主題</string>
+    <string name="theme_system">跟隨系統</string>
+    <string name="theme_light">淺色模式</string>
+    <string name="theme_dark">深色模式</string>
+    <string name="setting_language">應用程式語言</string>
+    <string name="lang_system">系統預設</string>
+    <string name="lang_english">English</string>
+    <string name="lang_traditional_chinese">繁體中文</string>
 </resources>
