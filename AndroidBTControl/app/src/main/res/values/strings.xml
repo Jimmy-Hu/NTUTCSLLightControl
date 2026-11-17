@@ -1,5 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidBTControl</string>
+    <string name="app_name">CSL Light Control</string>
+    <string name="brand_title">City Science @ Taipei Tech</string>
+    <string name="brand_subtitle">MIT Media Lab Cooperation • Light Controller</string>
+    <string name="brand_logo_desc">City Science Lab at Taipei Tech Logo</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
