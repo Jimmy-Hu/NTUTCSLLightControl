@@ -2,9 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Legacy Bluetooth Permissions -->
-    <uses-permission android:name="android.permission.BLUETOOTH"/>
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <!-- Hardware feature optional so emulators and Demo Mode devices can install and run -->
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
 
     <!-- Android 12+ (API 31+) Bluetooth Permissions -->
     <!-- These are required if targeting SDK 31+ -->
