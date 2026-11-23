@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Build Debug APK
+    name: Test, Lint & Build Debug APK
     runs-on: ubuntu-latest
     
     defaults:
